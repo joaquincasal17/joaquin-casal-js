@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="global">
+  <header>
+    <p><a href="/tienda.html">CSL commerce</a></p>
+  </header>
+  
+  <main>
+    <section class="sectionCompra">
+      <div class="containerCompra">
+        <div class="carritoCompra" >
+          <h2>Resumen de tu compra</h2>
+          <ul id="MiCompra"></ul>
+        </div>
+
+        <div class="pago" id="pago">
+          <h2>Datos de facturacion</h2>
+          <form class="formCompra" id="formCompra">
+            <input type="text" id="nombre" placeholder="Tu nombre" />
+            <input type="text" id="dni" placeholder="DNI" />
+            
+            <select class="selectPago" id="metodoPago" r>
+              <option value="">Selecciona un metodo de pago</option>
+              <option value="Tranferencia">Tranferencia</option>
+              <option value="Debito">Debito</option>
+              <option value="Credito">Credito</option>
+            </select>
+            <input type="text" id="numTarjeta" placeholder="Tumero de la tarjeta"/>
+            <div class="form">
+            <button type="submit">pagar</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+<footer>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
+<script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+<script src="/js/compra.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

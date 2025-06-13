@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="global">
+  <header>
+    <p><a href="#">CSL commerce</a></p>
+    <nav class="navbar">
+    <ul class="menu">
+      <li class="menu-item">
+        <div id="menuIcon" class="menu-icon">
+          <ion-icon name="menu-outline" size="large"></ion-icon>
+        </div>
+        <ul id="dropdownCarrito" class="dropdown hidden">
+        </ul>
+      </li>
+    </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Productos</h1>
+    <section class="sectionProductos">
+      <div class="catalogo">
+
+          <div class="cardProducto">
+            <img src="/img/AZURE.png" alt="">   
+            <p>Teclado Redragon Azure</p>   
+            <p>$70</p>
+            <button class="btnAgregar"         
+            data-nombre="Teclado Redragon Azure" 
+            data-precio="70">
+
+            Agregar al carrito</button>
+        </div>
+        <div class="cardProducto">
+          <img src="/img/fidd.webp" alt="">   
+          <p>Teclado Redragon Fidd 60%</p>   
+          <p>$79</p>
+          <button class="btnAgregar" 
+          data-nombre="Teclado Redragon Fidd 60%" 
+          data-precio="79">Agregar al carrito</button>
+        </div>
+        <div class="cardProducto">
+          <img src="/img/alloy.webp" alt="">   
+          <p>Teclado Hyperx Alloy Origins</p>   
+          <p>$120</p>
+          <button class="btnAgregar" 
+          data-nombre="Teclado Hyperx Alloy Origins" 
+          data-precio="120">Agregar al carrito</button>
+        </div>
+        <div class="cardProducto">
+          <img src="/img/gPro.jpg" alt="">   
+          <p>Teclado Logitech G Pro</p>   
+          <p>$140</p>
+          <button class="btnAgregar" 
+          data-nombre="Teclado Logitech G Pro" 
+          data-precio="140">Agregar al carrito</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+<footer>
+  <ul>
+    <li><p></p></li>
+  </ul>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
+<script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+<script src="/js/tienda.js"></script>
+</body>
+</html>
