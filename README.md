@@ -1,5 +1,7 @@
 CSL Commerce es una tienda online desarrollada con HTML, CSS y JavaScript. El sitio ofrece una experiencia simple e intuitiva para que el usuario explore productos (teclados) y agregue artículos al carrito de compras.
-    Funcionalidades principales:
+
+
+Funcionalidades principales:
       
 ·Catálogo de productos con imágenes y precios.
 
@@ -13,7 +15,6 @@ CSL Commerce es una tienda online desarrollada con HTML, CSS y JavaScript. El si
 
 ·Interfaz responsive y moderna.
 
-·Estructura organizada con carpetas /js, /css e /img.
 
   Tecnologías utilizadas:
     
